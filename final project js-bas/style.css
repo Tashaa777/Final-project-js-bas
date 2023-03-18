@@ -1,0 +1,30 @@
+body {
+    background: #cbc8c8;
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .team-form {
+    max-width: 320px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  .form-label {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  .form-input {
+  }
+  .create-team-btn,
+  .show-team-btn {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.05rem;
+  }
+  .show-team div{
+   margin-top: 10px;
+  }
